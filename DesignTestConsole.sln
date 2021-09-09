@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumsParamsDynamicRegex", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dynamic", "Dynamic\Dynamic.csproj", "{5F102473-0B8E-430C-886E-354B9D844199}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendCircleTest", "FriendCircleTest\FriendCircleTest.csproj", "{5062675C-725B-4DF8-92C1-4EC8DE3E098B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FriendCircleTest", "FriendCircleTest\FriendCircleTest.csproj", "{5062675C-725B-4DF8-92C1-4EC8DE3E098B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumerable", "IEnumerable\IEnumerable.csproj", "{E638E19D-DC1E-4E48-A9A1-B52CAABCA6A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{5062675C-725B-4DF8-92C1-4EC8DE3E098B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5062675C-725B-4DF8-92C1-4EC8DE3E098B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5062675C-725B-4DF8-92C1-4EC8DE3E098B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E638E19D-DC1E-4E48-A9A1-B52CAABCA6A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E638E19D-DC1E-4E48-A9A1-B52CAABCA6A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E638E19D-DC1E-4E48-A9A1-B52CAABCA6A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E638E19D-DC1E-4E48-A9A1-B52CAABCA6A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
