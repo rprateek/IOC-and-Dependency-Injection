@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BAL", "BAL\BAL.csproj", "{C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueTypeVsRefType", "ValueTypeVsRefType\ValueTypeVsRefType.csproj", "{C1F5C575-393E-4E83-B1F1-96E0AF5A372A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiThreading", "MultiThreading\MultiThreading.csproj", "{696503F0-0E17-4A4D-AA7C-3AA121F2B1CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Various", "MultiThreading\Various.csproj", "{696503F0-0E17-4A4D-AA7C-3AA121F2B1CD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadAndWriteFiles", "ReadAndWriteFiles\ReadAndWriteFiles.csproj", "{E514D55D-5688-41CE-8970-CED6DDF8CAAA}"
 EndProject
@@ -27,7 +27,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dynamic", "Dynamic\Dynamic.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FriendCircleTest", "FriendCircleTest\FriendCircleTest.csproj", "{5062675C-725B-4DF8-92C1-4EC8DE3E098B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumerable", "IEnumerable\IEnumerable.csproj", "{E638E19D-DC1E-4E48-A9A1-B52CAABCA6A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEnumerable", "IEnumerable\IEnumerable.csproj", "{E638E19D-DC1E-4E48-A9A1-B52CAABCA6A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadWriteFile", "ReadWriteFile\ReadWriteFile.csproj", "{5249FB8E-8896-4AFA-82E8-1E3658E466CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank", "HackerRank\HackerRank.csproj", "{13A39414-C9EE-48CD-AA72-E2D45561EEB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TickTackToe", "TickTackToe\TickTackToe.csproj", "{68810722-72CC-418B-999B-6CE2A927F6A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreading", "MultiThreading\MultiThreading.csproj", "{AC63C317-C36E-4802-B1B7-41A2052B6C9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +95,22 @@ Global
 		{E638E19D-DC1E-4E48-A9A1-B52CAABCA6A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E638E19D-DC1E-4E48-A9A1-B52CAABCA6A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E638E19D-DC1E-4E48-A9A1-B52CAABCA6A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5249FB8E-8896-4AFA-82E8-1E3658E466CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5249FB8E-8896-4AFA-82E8-1E3658E466CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5249FB8E-8896-4AFA-82E8-1E3658E466CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5249FB8E-8896-4AFA-82E8-1E3658E466CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A39414-C9EE-48CD-AA72-E2D45561EEB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A39414-C9EE-48CD-AA72-E2D45561EEB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A39414-C9EE-48CD-AA72-E2D45561EEB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A39414-C9EE-48CD-AA72-E2D45561EEB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68810722-72CC-418B-999B-6CE2A927F6A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68810722-72CC-418B-999B-6CE2A927F6A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68810722-72CC-418B-999B-6CE2A927F6A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68810722-72CC-418B-999B-6CE2A927F6A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC63C317-C36E-4802-B1B7-41A2052B6C9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC63C317-C36E-4802-B1B7-41A2052B6C9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC63C317-C36E-4802-B1B7-41A2052B6C9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC63C317-C36E-4802-B1B7-41A2052B6C9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
