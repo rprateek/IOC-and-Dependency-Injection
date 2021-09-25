@@ -7,20 +7,23 @@ namespace HackerRank
 {
     class Program
     {
+        //while ((sinput = Console.ReadLine()) != null)
+        
         static void Main(string[] args)
         {
-            //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
-            //MinMaxSum obj = new MinMaxSum();
-            //string sInput = Console.ReadLine().ToString();
-            //obj.ReverseString(sInput);
 
-            Encryption obj = new Encryption();
-            Console.WriteLine(obj.Base62Encrypt(7).ToString());
 
-            Console.ReadLine();
+           
+            int n = Convert.ToInt32(Console.ReadLine().Trim());
+            Recursion obj = new Recursion();
+            int result = obj.factorial(n);
 
-        }
-
+            Console.WriteLine(result);
+            
+        }       
        
     }
+
+  
+
 }
