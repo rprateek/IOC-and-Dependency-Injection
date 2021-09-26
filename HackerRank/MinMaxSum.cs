@@ -13,6 +13,24 @@ namespace HackerRank
         //MinMaxSum(arr);
         //Console.ReadLine();
 
+        public void GetEven()
+        {
+            List<int> myNumbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 };
+
+            //var even = from x in myNumbers
+            //           where x % 2 == 0
+            //           select x; // LINQ to get even numbers
+
+            //Same LINQ query above using API Syntax
+            var even = myNumbers.Where(x => x % 2 == 0);
+
+
+            foreach (var item in even)
+            {
+                Console.WriteLine(item.ToString());
+            }
+        }
+
         public void ReverseString(string s)
         {
             //string sCombine="";

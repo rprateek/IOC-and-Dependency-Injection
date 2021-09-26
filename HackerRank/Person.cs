@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace HackerRank
 {
-    public class Person
+    public class Person1
     {
         public int age;
-        public Person(int initialAge)
+        public Person1(int initialAge)
         {
             if (initialAge < 0)
             {
