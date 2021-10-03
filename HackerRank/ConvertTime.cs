@@ -66,10 +66,6 @@ namespace HackerRank
 
 
 
-
-
-    class Solution
-    {
         //public static void Main(string[] args)
         //{
         //    TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
@@ -83,6 +79,6 @@ namespace HackerRank
         //    textWriter.Flush();
         //    textWriter.Close();
         //}
-    }
+   
 
 }

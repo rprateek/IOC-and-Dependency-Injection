@@ -6,6 +6,28 @@ using System.Threading.Tasks;
 
 namespace HackerRank
 {
+
+    public interface AdvancedArithmetic
+    {
+        public int divisorSum(int n);
+    }
+
+
+    public class Calculator : AdvancedArithmetic
+    {
+        public int divisorSum(int n)
+        {
+            int retVal = 0;
+            for (int i = 1; i <= n; i++)
+                if (n % i == 0)
+                    retVal = retVal + i;
+                    
+
+            return retVal;
+        }
+    }
+
+
     public class MinMaxSum
     {
         //List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();

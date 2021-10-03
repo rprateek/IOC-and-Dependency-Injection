@@ -5,44 +5,88 @@ using System.IO;
 
 namespace HackerRank
 {
-    class Program
+    class Solution
     {
         //while ((sinput = Console.ReadLine()) != null)
         //List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
+        Stack<char> stack = new Stack<char>();
+        private object dequeueCharacter()
+        {
+            throw new NotImplementedException();
+        }
+
+        private object popCharacter()
+        {
+            throw new NotImplementedException();
+        }
+
+        private void enqueueCharacter(char c)
+        {
+           
+        }
+
+        private void pushCharacter(char c)
+        {
+            stack.Push(c);
+           
+        }
+        public static int simpleArraySum(List<int> ar)
+        {
+            int sum = Convert.ToInt32(ar.Sum());
+            return sum;
+        }
         static void Main(string[] args)
         {
-			//string[] inputs = Console.ReadLine().Split();
-			//string firstName = inputs[0];
-			//string lastName = inputs[1];
-			//int id = Convert.ToInt32(inputs[2]);
-			//int numScores = Convert.ToInt32(Console.ReadLine());
-			//inputs = Console.ReadLine().Split();
-			//int[] scores = new int[numScores];
-			//for (int i = 0; i < numScores; i++)
-			//{
-			//	scores[i] = Convert.ToInt32(inputs[i]);
-			//}
 
-			//Student s = new Student(firstName, lastName, id, scores);
-			//s.printPerson();
-			//Console.WriteLine("Grade: " + s.Calculate() + "\n");
+            int arCount = Convert.ToInt32(Console.ReadLine().Trim());
 
-			List<int> myNumbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 };
+            List<int> ar = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arTemp => Convert.ToInt32(arTemp)).ToList();
 
-			//var even = from x in myNumbers where x % 2 == 0 select x; // LINQ to get even numbers
+            int result = simpleArraySum(ar);
 
-			//Same LINQ query above using API Syntax
-			var even = myNumbers.Where(x => x % 2 == 0);
+            Console.WriteLine(result);
+            
 
-            foreach (var item in even)
-            {
-                Console.WriteLine(item.ToString());
-            }
 
-		}       
+            //// read the string s.
+            //string s = Console.ReadLine();
+
+            //// create the Solution class object p.
+            //Solution obj = new Solution();
+
+            //// push/enqueue all the characters of string s to stack.
+            //foreach (char c in s)
+            //{
+            //    obj.pushCharacter(c);
+            //    obj.enqueueCharacter(c);
+            //}
+
+            //bool isPalindrome = true;
+
+            //// pop the top character from stack.
+            //// dequeue the first character from queue.
+            //// compare both the characters.
+            //for (int i = 0; i < s.Length / 2; i++)
+            //{
+            //    if (obj.popCharacter() != obj.dequeueCharacter())
+            //    {
+            //        isPalindrome = false;
+
+            //        break;
+            //    }
+            //}
+
+            //// finally print whether string s is palindrome or not.
+            //if (isPalindrome)
+            //{
+            //    Console.Write("The word, {0}, is a palindrome.", s);
+            //}
+            //else
+            //{
+            //    Console.Write("The word, {0}, is not a palindrome.", s);
+            //}
+        }
+
        
-    }
-
-  
-
+    }  
 }
